@@ -897,7 +897,7 @@
 - **PD 分离后 Speculative Decoding**：EAGLE-3/Medusa/DeepSeek MTP，2.5-4× 加速（Day9 Q20）
 - **Multi-LoRA Serving**：base 共享 + adapter 热加载，多租户定制性价比之王（Day9 Q22）
 - **ColPali/ColQwen**：PDF 页当图 + patch 多向量，无需 OCR，多模态文档 RAG 新方案（Day1 Q34）
-- **GraphRAG 生产代价**：72-80% 企业落不了地，LightRAG 比 微软 GraphRAG 便宜 25 倍（Day1 Q35）
+- **GraphRAG 生产代价**：据 LightRAG 论文（HKU 2024）报告，微软 GraphRAG 索引成本过高，LightRAG 在同等质量下索引成本约为其 1/25；"72-80% 企业落不了地"为社区经验估算（具体来源待补），面试中改为"索引成本高、增量更新难，多数企业卡在 PoC 阶段"更稳妥（Day1 Q16/Q35）
 - **MCP Tool Poisoning**：工具 description/输出藏指令，OWASP 2026 收录，需网关+沙箱+HITL（Day2 Q34）
 
 ---
